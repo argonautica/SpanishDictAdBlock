@@ -1,0 +1,28 @@
+{
+  "action": {},
+  "name": "SpanishDictAdBlock",
+  "description": "blocks spanishdict ads",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.spanishdict.com/*"
+      ],
+      "js": [
+        "script.js"
+      ],
+      "all_frames": true
+    }
+  ],
+  "action": {"default_popup": "index.html"},
+  "web_accessible_resources":[{
+      "resources":["script.js"],
+      "matches": ["<all_urls>"]
+   }]
+}
