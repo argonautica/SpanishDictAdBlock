@@ -3,6 +3,7 @@
   "name": "SpanishDictAdBlock",
   "description": "blocks spanishdict ads",
   "version": "1.0",
+  "author": "argonautica",
   "manifest_version": 3,
   "permissions": [
     "storage",
