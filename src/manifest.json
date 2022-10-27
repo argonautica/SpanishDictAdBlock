@@ -1,7 +1,7 @@
 {
   "action": {},
   "name": "SpanishDictAdBlock",
-  "description": "blocks spanishdict ads",
+  "description": "Removes SpanishDict's anti adblock popups",
   "version": "1.0",
   "author": "argonautica",
   "manifest_version": 3,
